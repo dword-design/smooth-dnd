@@ -1,6 +1,6 @@
 import { isScrolling, getScrollingAxis, getVisibleRect, debounce } from './utils';
 
-const maxSpeed = 1500; // px/s
+const maxSpeed = 1200; // px/s
 const minSpeed = 20; // px/s
 
 function addScrollValue(element, axis, value) {
