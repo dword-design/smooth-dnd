@@ -1,3 +1,7 @@
+Fixes two issues:
+- Fix this bug: https://github.com/kutlugsahin/vue-smooth-dnd/issues/29
+- Adjust maxSpeed for dragScroller
+
 # smooth-dnd
 
 A fast and lightweight drag&drop, sortable library for with many configuration options covering many d&d scenarios. There is no external dependencies. It uses css transitions for animations so it's hardware accelerated whenever possible.
