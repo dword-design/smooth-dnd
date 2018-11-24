@@ -24,6 +24,8 @@ let cursorStyleElement = null;
 
 // Utils.addClass(document.body, 'clearfix');
 
+window.addEventListener('touchmove', e => { if (isDragging) { e.preventDefault() } }, { passive: false })
+
 const isMobile = Utils.isMobile();
 
 function listenEvents() {
